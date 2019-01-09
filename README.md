@@ -1,5 +1,5 @@
 # toolLaunch project
-**Contibutors: jraffard
+**Contibutors: Heracles93
 
 This script  creates a template to start a new project.
 
@@ -20,7 +20,7 @@ No need to install anything but just be sure that you have the rigth to exec.
 To execute the script just open a terminal and tape the following command.
 
 ```
-./startToolLauncher
+./makeProject
 ```
 
 ## Built With
