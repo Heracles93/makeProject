@@ -14,7 +14,7 @@ then
 	mkdir -p $1
 else
 	echo "project $1 already exists"
-	exit 1
+	exit 1 # Comment if the project already exist
 fi
 
 # Go in the project
@@ -65,3 +65,5 @@ done
 touch startup/__init__.py
 echo "*" > data/.gitignore
 echo "*" > tmp/.gitignore
+
+tree
